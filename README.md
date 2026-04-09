@@ -1,12 +1,12 @@
 # webgi vanilla starter
 
-3D product showcasing on the web — built with the WebGi SDK, TypeScript, and Vite.
+3D product showcasing on the web — WebGi SDK, TypeScript, Vite. no framework overhead.
 
 ## context
 
-A boilerplate I built for experimenting with 3D product visualization on the web. The idea: take a 3D model and present it in a browser with realistic rendering, camera controls, and interaction — no heavy frameworks, no React overhead. Just HTML, CSS, TypeScript, and a powerful rendering engine.
+a boilerplate for 3D product visualization in the browser. take a 3D model, render it with realistic materials and lighting, add camera controls and interaction. plain HTML, CSS, and TypeScript — no React, no heavy framework. just a rendering engine and a build tool.
 
-This sits at the intersection of my industrial design background (Politecnico di Torino) and frontend development — bringing physical products into digital experiences.
+sits somewhere between industrial design and frontend development — bringing physical products into digital experiences.
 
 ## stack
 
@@ -16,7 +16,7 @@ This sits at the intersection of my industrial design background (Politecnico di
 
 ```
 src/
-├── index.ts      # main entry — scene setup, camera, interactions
+├── index.ts      # scene setup, camera, interactions
 └── styles.css    # layout and presentation
 assets/           # 3d models and textures
 index.html        # entry point
@@ -31,11 +31,11 @@ npm run dev
 
 ## what's webgi?
 
-[WebGi](https://webgi.xyz/) is a high-quality 3D rendering SDK for the web. It handles PBR materials, environment lighting, post-processing, and camera animation out of the box — think product configurators, jewelry showcases, furniture previews.
+[WebGi](https://webgi.xyz/) — high-quality 3D rendering SDK for the web. handles PBR materials, environment lighting, post-processing, and camera animation out of the box. think product configurators, jewelry showcases, furniture previews.
 
 ## status
 
-🟡 starter/experiment — built as a learning tool and base for future 3D web projects. Could evolve into a product configurator template.
+🟡 starter/experiment — a learning tool and base for future 3D web projects. could evolve into a product configurator template.
 
 ---
 
